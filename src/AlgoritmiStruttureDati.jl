@@ -1,5 +1,7 @@
 module AlgoritmiStruttureDati
 
-greet() = print("Hello World!")
+include("./laboratorio3/Laboratorio3.jl")
+
+
 
 end # module

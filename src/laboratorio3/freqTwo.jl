@@ -1,4 +1,4 @@
-function freqTwo(a::Array{Int, 1}, x::Int, y::Int, left=1, right=length(a))
+function freqTwo(a::Array{Int, 1}, x, y, left=1, right=length(a))
 	if right == left
 		return 0
 	end

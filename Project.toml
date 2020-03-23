@@ -3,6 +3,9 @@ uuid = "c8a0b69e-4f51-43a1-9b75-c43b104b7395"
 authors = ["Lorenzo Feroleto"]
 version = "0.1.0"
 
+[deps]
+SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
+
 [compat]
 julia = "1"
 

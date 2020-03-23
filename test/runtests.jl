@@ -1,3 +1,3 @@
-using AlgoritmiStruttureDati, Test, SafeTestsets
+using Test, SafeTestsets
 
-@time @safetestsets "AlgoritmiStruttureDati.jl" begin include("./laboratorio3/sumBetweenElementsTest.jl") end
+@time @safetestset "sumBetweenElementsTest.jl" begin include("./laboratorio3/sumBetweenElementsTest.jl") end
